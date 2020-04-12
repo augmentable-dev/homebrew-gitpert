@@ -2,16 +2,16 @@
 class Gitpert < Formula
   desc "measure the pertinence of git authors as a time-decayed measure of LOC added and removed to a repository (or a set of files in a repository)"
   homepage "https://github.com/augmentable-dev/gitpert/"
-  version "0.0.3"
+  version "0.0.4"
   bottle :unneeded
 
   if OS.mac?
-    url "https://github.com/augmentable-dev/gitpert/releases/download/v0.0.3/gitpert_0.0.3_Darwin_x86_64.tar.gz"
-    sha256 "b950ad4155871b5d61a5126e45b8c1edc3fc7580c3a287109cc3f0d1d3eecbdc"
+    url "https://github.com/augmentable-dev/gitpert/releases/download/v0.0.4/gitpert_0.0.4_Darwin_x86_64.tar.gz"
+    sha256 "e8c62516029def793cbad40c074746c3900cf21bc2caf881c33e74f1252baddd"
   elsif OS.linux?
     if Hardware::CPU.intel?
-      url "https://github.com/augmentable-dev/gitpert/releases/download/v0.0.3/gitpert_0.0.3_Linux_x86_64.tar.gz"
-      sha256 "ec68313280d4016ce891bd72542ba5856cd160ef24524601de141703f95e6e39"
+      url "https://github.com/augmentable-dev/gitpert/releases/download/v0.0.4/gitpert_0.0.4_Linux_x86_64.tar.gz"
+      sha256 "a3cb56a48f7a28da6bee96fb1d6a33aafb91d398df8181452b4b4963c27dba52"
     end
   end
 
